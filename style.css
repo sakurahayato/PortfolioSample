@@ -8,6 +8,9 @@ body{
     color: #00ABAE;
 }
 
+.sub-title {
+    font-size: 32px;
+}
 .block-header {
     margin: 10px 0;
     padding: 0 20px 10px;
@@ -19,4 +22,46 @@ body{
     color: #000;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+.block-main {
+    text-align: center;
+    margin: 100px;
+}
+
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: auto;
+}
+
+.item-list b {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p {
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-list li {
+    margin-right: 22px;
+}
+
+.icon-list li:last-child {
+    margin-right: 0;
 }
